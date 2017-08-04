@@ -1,0 +1,80 @@
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Maven Pro', sans-serif;
+	color: #133c55;
+	height: 100%;
+	min-height: 100%;
+}
+
+.content {
+	margin: 40px 10% 10px 10%;
+	padding: 30px 30px 0 30px;
+	position: relative;
+}
+#home {
+	height: 100%;
+	min-height: 100%;
+}
+#projects {
+	height: 100%;
+	min-height: 100%;
+}
+
+.main {
+	font-size: 50px;
+}
+
+.description {
+	font-size: 22px;
+	line-height: 28px;
+}
+.description a {
+	text-decoration: none;
+}
+
+.section {
+	padding: 0 0 30px 0;
+	min-width: 400px;
+}
+
+.moveright {
+	padding-left: 3px;
+}
+
+/* Lines */
+.topborder {
+	background: #133c55;
+	height: 4px;
+	width: 0px; /*320px;*/
+	position: absolute;
+	top: -10px;
+	left: 0px;
+}
+.leftborder {
+	background: #133c55;
+	height: 0px; /*500px;*/
+	width: 4px;
+	position: absolute;
+	top: 0px;
+	left: -10px;
+}
+.topline1 {
+	background: #133c55;
+	height: 4px; /*500px;*/
+	width: 0px;
+	position: absolute;
+	top: 6.5px;
+	left: 10px;
+}
+.topline2 {
+	background: #133c55;
+	height: 4px; /*500px;*/
+	width: 0px;
+	position: absolute;
+	top: 24px;
+	left: 20px;
+}
